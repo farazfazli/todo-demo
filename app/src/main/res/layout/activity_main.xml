@@ -27,7 +27,8 @@
         android:textColor="#FFFFFF"
         android:layout_alignTop="@+id/todo_input"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="addTodoPressed"/>
 
     <EditText
         android:layout_width="match_parent"
